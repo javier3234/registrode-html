@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>login 2</title>
+	<link rel="stylesheet" type="text/css" href="../css/estiloj2.css">
+</head>
+<body id="login">
+<form action="Datos enviados.html" method="post">
+<h1>Crear cuenta</h1>
+<fieldset id="logindatos">
+	<input type="image" src="../img/user (2).png" class="img">
+
+	<input type="text" id="nombre" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="nombre" require /><br>
+
+
+	<input type="image" src="../img/grado.png" class="img">
+
+
+	<input type="text" id="grado" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="grado" require /><br>
+
+
+		<input type="image" src="../img/seccion.png" class="img">
+
+
+	<input type="text" id="sección" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="sección" require /><br>
+
+
+
+		<input type="image" src="../img/especialidad.png" class="img">
+
+
+	<input type="text" id="especialidad" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="especialidad" require /><br>
+
+
+
+		<input type="image" src="../img/cole.jpg" class="img">
+
+
+	<input type="text" id="institución" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="institución" require /><br>
+
+
+
+		<input type="image" src="../img/fecha.png" class="img">
+
+
+	
+<input type="text" id="fecha" value="" pattern="((?.*\d)(*[a-z])(?=.*[A-Z].{1,31})" title="su fecha deve contar con un numero del 1 al 31, mes y año " class="control" placeholder="Fecha" required= /><br>
+
+
+		<input type="image" src="../img/user (2).png" class="img">
+
+
+	<input type="text" id="docente" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="docente" require /><br>
+
+
+
+
+		<input type="image" src="../img/materia.png" class="img">
+
+
+	<input type="text" id="meteria" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="meteria" require /><br>
+
+
+
+
+
+			<input type="image" src="../img/nota.jpg" class="img">
+
+
+	<input type="text" id="nota" value="" pattern="((?.*\d)(*[a-z])(?=.*[A-Z].{1,10})" title="su nota debe incluir un numero del 1 al 10" class="control" placeholder="Nota" required= /><br>	
+
+
+
+			<input type="image" src="../img/ojo.png" class="img">
+
+
+	<input type="text" id="observación" value=""  pattern="^[a-zA-Z\s]+$" title="solo se aceptan letras" class="control" placeholder="observación" require /><br>
+
+
+
+
+	<input type="checkbox" checked name="acepto" class="terminos" >
+
+	<p class="terminos">acepto terminos, condiciones y politicas de privacidad </p>
+
+	<button id="boton" type="submit" value="crearcuenta">crear cuenta</button>
+</fieldset>
+</form>
+</body>
+</html>
